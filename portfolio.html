@@ -18,144 +18,144 @@
     <!--шапка сайта-->
     <header class="header-sektion">
         <div class="container main-nave">
-        <nav class="nave">
-            <a class="logo" href="./index.html">Web<span class="accent">Studio</span></a>
-            <ul class="list-nave">
-                <li class="item"><a href="./index.html" class="site-nave">Студия</a></li>
-                <li class="item"><a href="./portfolio.html" class="site-nave-portfolio">Портфолио</a></li>
-                <li class="item"><a href="" class="site-nave">Контакты</a></li>
+            <nav class="header-sektion__nave">
+                <a href="./index.html" class="logo">Web<span class="logo__header">Studio</span></a>
+                <ul class="header-sektion__list">
+                    <li class="header-sektion__item"><a href="./index.html"class="header-sektion__link ">Студия</a></li>      
+                    <li class="header-sektion__item"><a href="./portfolio.html" class="header-sektion__link header-sektion__link--active">Портфолио</a></li>
+                    <li class="header-sektion__item"><a href="" class="header-sektion__link">Контакты</a></li>
+                </ul>
+            </nav>
+            <ul class="contakts">
+                <li class="contakts__item"><a class="contakts__link" href="mailto:info@devstudio.com">
+                        <svg class="contakts__logo" width="16" height="12">
+                            <use href="./images/symbol-defs.svg#icon-envelope-1-1"> </use>
+                        </svg>info@devstudio.com</a></li>
+                <li class="contakts__item"><a class="contakts__link" href="tel:380961111111">
+                        <svg class="contakts__logo" width="10" height="16">
+                            <use href="./images/symbol-defs.svg#icon-smartphone-1"> </use>
+                        </svg>+38 096 111 11 11</a></li>
             </ul>
-        </nav>
-        <ul class="list-contakts">
-            <li class="item"><a class="contakts-nave" href="mailto:info@devstudio.com">
-                    <svg class="contakts-item" width="16" height="12">
-                        <use href="./images/symbol-defs.svg#icon-envelope-1-1"> </use>
-                    </svg>info@devstudio.com</a></li>
-            <li class="item"><a class="contakts-nave" href="tel:380961111111">
-                    <svg class="contakts-item" width="10" height="16">
-                        <use href="./images/symbol-defs.svg#icon-smartphone-1"> </use>
-                    </svg>+38 096 111 11 11</a></li>
-        </ul>
         </div>
     </header>
     <!--основной блок-->
     <main>
     <!--Фильтр-->
-    <section class="section-main">
+    <section class="services">
         <div class="container">    
-        <ul class="list-button">
-            <li class="button-lokation"><button type="button" class="button-primary">Все</button></li>
-            <li class="button-lokation"><button type="button" class="button-primary">Веб-сайты</button></li>     
-            <li class="button-lokation"><button type="button" class="button-primary">Приложения</button></li>    
-            <li class="button-lokation"><button type="button" class="button-primary">Дизайн</button></li>    
-            <li class="button-lokation"><button type="button" class="button-primary">Маркетинг</button></li>     
+        <ul class="services__list-button">
+            <li class="services__item"><button type="button" class="button button--services">Все</button></li>
+            <li class="services__item"><button type="button" class="button button--services">Веб-сайты</button></li>     
+            <li class="services__item"><button type="button" class="button button--services">Приложения</button></li>    
+            <li class="services__item"><button type="button" class="button button--services">Дизайн</button></li>    
+            <li class="services__item"><button type="button" class="button button--services">Маркетинг</button></li>     
         </ul>
     
         <!--Наши работы-->
             <h2 class="visually-hidden">Наши работы</h2>
-            <ul class="list-card">
-                <li class="card">
-                    <a class="link-card" href="">
-                        <div class="thumb-card">
+            <ul class="services__list-card">
+                <li class="services__card">
+                    <a class="services__link" href="">
+                        <div class="services__thumb">
                         <img src="./images/img(7)(1).jpg" alt="Сайты" width="370" height="294">
-                        <div class="product-overlay">
-                            <p class="text-window">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+                        <div class="services__overlay">
+                            <p class="services__text-overlay">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                             шпионажа и атак на защищённые сервера конкурентов.</p>
                         </div></div>
-                            <div class="card-content">
-                            <h3 class="title-of-works">Технокряк</h3>
-                            <p class="text-of-works">Веб-сайт</p></div>
+                            <div class="services__content">
+                            <h3 class="services__title">Технокряк</h3>
+                            <p class="services__text">Веб-сайт</p></div>
                         </a></li>
-                <li class="card">
-                    <a class="link-card" href="">
-                        <div class="thumb-card">
+                <li class="services__card">
+                    <a class="services__link" href="">
+                        <div class="services__thumb">
                         <img src="./images/img(8)(1).jpg" alt="Постер" width="370" height="294">
-                        <div class="product-overlay">
-                            <q class="text-window">Немного здравого смысла, немного терпимости, немного чувства юмора, и можно очень уютно устроиться на этой планете…</q>
+                        <div class="services__overlay">
+                            <q class="services__text-overlay">Немного здравого смысла, немного терпимости, немного чувства юмора, и можно очень уютно устроиться на этой планете…</q>
                         </div></div>
-                        <div class="card-content">
-                            <h3 class="title-of-works">Постер New Orlean vs Golden Star</h3>
-                            <p class="text-of-works">Дизайн</p></div>
+                        <div class="services__content">
+                            <h3 class="services__title">Постер New Orlean vs Golden Star</h3>
+                            <p class="services__text">Дизайн</p></div>
                         </a></li>
-                <li class="card">
-                    <a class="link-card" href="">
-                        <div class="thumb-card">
+                <li class="services__card">
+                    <a class="services__link" href="">
+                        <div class="services__thumb">
                         <img src="./images/img(9)(1).jpg" alt="Ресторан" width="370" height="294">
-                        <div class="product-overlay">
-                            <q class="text-window">Больно? Трудно? А ты — улыбнись! Ведь ты еще жив. А пока жив — все впереди</q>
+                        <div class="services__overlay">
+                            <q class="services__text-overlay">Больно? Трудно? А ты — улыбнись! Ведь ты еще жив. А пока жив — все впереди</q>
                         </div></div>
-                        <div class="card-content">
-                            <h3 class="title-of-works">Ресторан Seafood</h3>
-                            <p class="text-of-works">Приложение</p>
+                        <div class="services__content">
+                            <h3 class="services__title">Ресторан Seafood</h3>
+                            <p class="services__text">Приложение</p>
                         </div></a></li>
-                <li class="card">
-                    <a class="link-card" href="">
-                        <div class="thumb-card">
+                <li class="services__card">
+                    <a class="services__link" href="">
+                        <div class="services__thumb">
                         <img src="./images/img(10)(1).jpg" alt="Проект Prime" width="370" height="294">
-                        <div class="product-overlay">
-                            <q class="text-window">Поступок всегда важнее слов. Человек способен орать два часа — и помочь… или два года сюсюкать — и предать</q>
+                        <div class="services__overlay">
+                            <q class="services__text-overlay">Поступок всегда важнее слов. Человек способен орать два часа — и помочь… или два года сюсюкать — и предать</q>
                         </div></div>
-                        <div class="card-content">
-                            <h3 class="title-of-works">Проект Prime</h3>
-                            <p class="text-of-works">Маркетинг</p>
+                        <div class="services__content">
+                            <h3 class="services__title">Проект Prime</h3>
+                            <p class="services__text">Маркетинг</p>
                         </div></a></li>
-                <li class="card">
-                    <a class="link-card" href="">
-                        <div class="thumb-card">
+                <li class="services__card">
+                    <a class="services__link" href="">
+                        <div class="services__thumb">
                         <img src="./images/img(11)(1).jpg" alt="Проект Boxes" width="370" height="294">
-                        <div class="product-overlay">
-                            <q class="text-window">Не нужно растрачивать себя на кого попало. Лучше копите в себе любовь, заботу и нежность, чтобы в нужный момент подарить
+                        <div class="services__overlay">
+                            <q class="services__text-overlay">Не нужно растрачивать себя на кого попало. Лучше копите в себе любовь, заботу и нежность, чтобы в нужный момент подарить
                             это нужному человеку</q>
                         </div></div>
-                        <div class="card-content">
-                            <h3 class="title-of-works">Проект Boxes</h3>
-                            <p class="text-of-works">Приложение</p>
+                        <div class="services__content">
+                            <h3 class="services__title">Проект Boxes</h3>
+                            <p class="services__text">Приложение</p>
                         </div></a></li>
-                <li class="card">
-                    <a class="link-card" href="">
-                        <div class="thumb-card">
+                <li class="services__card">
+                    <a class="services__link" href="">
+                        <div class="services__thumb">
                         <img src="./images/img(12)(1).jpg" alt="Установки" width="370" height="294">
-                        <div class="product-overlay">
-                            <q class="text-window">Ты никогда не сможешь оправдать чужие ожидания…
+                        <div class="services__overlay">
+                            <q class="services__text-overlay">Ты никогда не сможешь оправдать чужие ожидания…
                             Другие всегда будут недовольны чем-то, потому что их причина внутри них, а не внутри тебя!</q>
                         </div></div>
-                        <div class="card-content">
-                            <h3 class="title-of-works">Inspiration has no Borders</h3>
-                            <p class="text-of-works">Веб-сайт</p>   
+                        <div class="services__content">
+                            <h3 class="services__title">Inspiration has no Borders</h3>
+                            <p class="services__text">Веб-сайт</p>   
                         </div></a></li>
-                <li class="card">
-                    <a class="link-card" href="">
-                        <div class="thumb-card">
+                <li class="services__card">
+                    <a class="services__link" href="">
+                        <div class="services__thumb">
                         <img src="./images/img(13)(1).jpg" alt="Издание Limited Edition" width="370" height="294">
-                        <div class="product-overlay">
-                            <q class="text-window">Человек сам строит вокруг себя жёсткий забор из этих самых «нельзя», «не могу», «не положено». А потом выглядывает из-за
+                        <div class="services__overlay">
+                            <q class="services__text-overlay">Человек сам строит вокруг себя жёсткий забор из этих самых «нельзя», «не могу», «не положено». А потом выглядывает из-за
                             этого забора и завидует тем, кто живёт на свободе</q>
                         </div></div>
-                        <div class="card-content">
-                            <h3 class="title-of-works">Издание Limited Edition</h3>
-                            <p class="text-of-works">Дизайн</p>
+                        <div class="services__content">
+                            <h3 class="services__title">Издание Limited Edition</h3>
+                            <p class="services__text">Дизайн</p>
                         </div></a></li>
-                <li class="card">
-                    <a class="link-card" href="">
-                        <div class="thumb-card">
+                <li class="services__card">
+                    <a class="services__link" href="">
+                        <div class="services__thumb">
                         <img src="./images/img(14)(1).jpg" alt="Проект LAB" width="370" height="294">
-                        <div class="product-overlay">
-                            <q class="text-window">Мир настолько испортился, что когда перед тобой чистый искренний человек, ты ищешь в этом подвох</q>
+                        <div class="services__overlay">
+                            <q class="services__text-overlay">Мир настолько испортился, что когда перед тобой чистый искренний человек, ты ищешь в этом подвох</q>
                         </div></div>
-                        <div class="card-content">
-                            <h3 class="title-of-works">Проект LAB</h3>
-                            <p class="text-of-works">Маркетинг</p>
+                        <div class="services__content">
+                            <h3 class="services__title">Проект LAB</h3>
+                            <p class="services__text">Маркетинг</p>
                         </div></a></li>
-                <li class="card">
-                    <a class="link-card" href="">
-                        <div class="thumb-card">
+                <li class="services__card">
+                    <a class="services__link" href="">
+                        <div class="services__thumb">
                         <img src="./images/img(15)(1).jpg" alt="Growing Business" width="370" height="294">
-                        <div class="product-overlay">
-                            <q class="text-window">Хорошее не возникает просто так, к нему нужно стремиться, его нужно создавать, лелеять, взращивать…</q>
+                        <div class="services__overlay">
+                            <q class="services__text-overlay">Хорошее не возникает просто так, к нему нужно стремиться, его нужно создавать, лелеять, взращивать…</q>
                         </div></div>
-                        <div class="card-content">
-                            <h3 class="title-of-works">Growing Business</h3>
-                            <p class="text-of-works">Приложение</p>   
+                        <div class="services__content">
+                            <h3 class="services__title">Growing Business</h3>
+                            <p class="services__text">Приложение</p>   
                         </div></a></li>
             </ul>  
             </div>
@@ -164,44 +164,45 @@
     <!--Подвал-->
     <footer class="footer-sektion">
         <div class="container">
-            <div class="footer-contakts">
-                <a href="./index.html" class="logo">Web<span class="accent-footer">Studio</span></a>
+            <div>
+                <a href="./index.html" class="logo footer-sektion__logo">Web<span class="logo__footer">Studio</span></a>
                 <address>
-                    <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
-                    <ul class="list">
-                        <li class="link-contakts"><a href="mailto:info@devstudio.com"
-                                class="contakts-footer">info@devstudio.com</a></li>
-                        <li class="link-contakts"><a href="tel:380961111111" class="contakts-footer">+38 096 111 11 11</a>
-                        </li>
+                    <p class="footer-sektion__adress">г. Киев, пр-т Леси Украинки, 26</p>
+                    <ul>
+                        <li class="footer-sektion__contakts"><a href="mailto:info@devstudio.com"
+                                class="footer-sektion__link">info@devstudio.com</a></li>
+                        <li class="footer-sektion__contakts"><a href="tel:380961111111" class="footer-sektion__link">+38 096
+                                111 11 11</a></li>
                     </ul>
                 </address>
             </div>
-            <div class="footer-icon">
-                <p class="join">присоеденяйтесь</p>
-                <ul class="icon-list-footer">
-                    <li class="list-link"><a class="icon-link" href="instagram" aria-label="instagram">
-                            <svg class="icon-footer" width="20" height="20">
+            <div class="join">
+                <p class="join__text">присоеденяйтесь</p>
+                <ul class="join__list">
+                    <li class="join__item"><a class="join__link" href="instagram" aria-label="instagram">
+                            <svg width="20" height="20">
                                 <use href="./images/symbol-defs.svg#icon-instagram-2-1"></use>
                             </svg></a></li>
-                    <li class="list-link"><a class="icon-link" href="twitter">
-                            <svg class="icon-footer" width="20" height="20">
+                    <li class="join__item"><a class="join__link" href="twitter">
+                            <svg width="20" height="20">
                                 <use href="./images/symbol-defs.svg#icon-twitter-1-1"></use>
                             </svg></a></li>
-                    <li class="list-link"><a class="icon-link" href="facebook">
-                            <svg class="icon-footer" width="20" height="20">
+                    <li class="join__item"><a class="join__link" href="facebook">
+                            <svg width="20" height="20">
                                 <use href="./images/symbol-defs.svg#icon-facebook-1-1"></use>
                             </svg></a></li>
-                    <li class="list-link"><a class="icon-link" href="in">
-                            <svg class="icon-footer" width="20" height="20">
+                    <li class="join__item"><a class="join__link" href="in">
+                            <svg width="20" height="20">
                                 <use href="./images/symbol-defs.svg#icon-linkedin-1-1"></use>
                             </svg></a></li>
-                </ul></div>
+                </ul>
+            </div>
             <div class="subscription">
-                <p class="join">Подпишитесь на рассылку</p>
-                <form class="form-field">
-                    <input class="subscription-window" type="text" name="email" id="email" autocomplete="on" placeholder="E-mail">
-                    <button class="subscription-button" type="submit"> Подписаться
-                        <svg class="air" width="24" height="24">
+                <p class="subscription__text">Подпишитесь на рассылку</p>
+                <form class="subscription__form">
+                    <input class="subscription__input" type="text" name="email" autocomplete="on" placeholder="E-mail">
+                    <button class="button button--subscription" type="submit"> Подписаться
+                        <svg class="button__icon" width="24" height="24">
                             <use href="./images/symbol-defs.svg#icon-icon-send-1"></use>
                         </svg></button>
                 </form>
