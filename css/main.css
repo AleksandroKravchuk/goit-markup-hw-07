@@ -9,8 +9,23 @@ body {
   color: var(--main-text-color);
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0px;
+}
+
+.container {
+  width: 1200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 ul {
@@ -28,14 +43,5 @@ ul {
   border: 0;
   padding: 0;
   overflow: hidden;
-}
-
-.container {
-  width: 1200px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 /*# sourceMappingURL=main.css.map */

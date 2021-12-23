@@ -1,5 +1,7 @@
 @import "./utils/variables";
+@import "./base/base.scss";
 @import "./utils/stylesheet";
+@import "./utils/vis-hidden.scss";
 @import "./components/header";
 @import "./components/logo";
 @import "./components/hero";
@@ -10,41 +12,4 @@
 @import "./components/section-title";
 @import "./components/section-work";
 @import "./components/section-clients";
-@import "./components/portfolio";
 @import "./components/footer";
-
-html {
-    box-sizing: border-box;
-}
-
-body {
-    font-family   : 'Roboto', sans-serif;
-    letter-spacing: 0.03em;
-    color         : var(--main-text-color);
-}
-h1,h2,h3,h4,h5,h6,p {
-    margin: 0px;
-}
-ul {
-    list-style: none;
-    padding   : 0px;
-    margin    : 0px;
-}
-.visually-hidden {
-    position: absolute;
-    clip    : rect(0 0 0 0);
-    width   : 1px;
-    height  : 1px;
-    margin  : -1px;
-    border  : 0;
-    padding : 0;
-    overflow: hidden;
-}
-.container {
-    width        : 1200px;
-    height       : auto;
-    margin-left  : auto;
-    margin-right : auto;
-    padding-left : 15px;
-    padding-right: 15px;
-}
