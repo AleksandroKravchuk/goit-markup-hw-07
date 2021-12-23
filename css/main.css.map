@@ -1,0 +1,23 @@
+{
+    "version": 3,
+    "mappings": "AAeA,AAAA,IAAI,CAAC;EACD,UAAU,EAAE,UAAU;CACzB;;AAED,AAAA,IAAI,CAAC;EACD,WAAW,EAAK,oBAAoB;EACpC,cAAc,EAAE,MAAM;EACtB,KAAK,EAAW,sBAAsB;CACzC;;AACD,AAAA,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,CAAC,CAAC;EAChB,MAAM,EAAE,GAAG;CACd;;AACD,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;EAChB,OAAO,EAAK,GAAG;EACf,MAAM,EAAM,GAAG;CAClB;;AACD,AAAA,gBAAgB,CAAC;EACb,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAM,aAAa;EACvB,KAAK,EAAK,GAAG;EACb,MAAM,EAAI,GAAG;EACb,MAAM,EAAI,IAAI;EACd,MAAM,EAAI,CAAC;EACX,OAAO,EAAG,CAAC;EACX,QAAQ,EAAE,MAAM;CACnB;;AACD,AAAA,UAAU,CAAC;EACP,KAAK,EAAU,MAAM;EACrB,MAAM,EAAS,IAAI;EACnB,WAAW,EAAI,IAAI;EACnB,YAAY,EAAG,IAAI;EACnB,YAAY,EAAG,IAAI;EACnB,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "main.scss",
+        "utils/_variables.scss",
+        "utils/_stylesheet.scss",
+        "components/_header.scss",
+        "components/_logo.scss",
+        "components/_hero.scss",
+        "components/_button.scss",
+        "components/_modal.scss",
+        "components/_section-advantages.scss",
+        "components/_section-team.scss",
+        "components/_section-title.scss",
+        "components/_section-work.scss",
+        "components/_section-clients.scss",
+        "components/_portfolio.scss",
+        "components/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
