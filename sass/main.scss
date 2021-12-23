@@ -1,15 +1,11 @@
+@import "./base/base";
 @import "./utils/variables";
-@import "./base/base.scss";
 @import "./utils/stylesheet";
-@import "./utils/vis-hidden.scss";
-@import "./components/header";
-@import "./components/logo";
-@import "./components/hero";
-@import "./components/button";
-@import "./components/modal";
-@import "./components/section-advantages";
-@import "./components/section-team";
-@import "./components/section-title";
-@import "./components/section-work";
-@import "./components/section-clients";
-@import "./components/footer";
+@import "./utils/vis-hidden";
+@import "./components/header/logo";
+@import "./components/header/navigation";
+@import "./components/header/contakts";
+@import "./components/main/hero";
+@import "./components/main/section-advantages";
+
+

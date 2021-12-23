@@ -1,0 +1,26 @@
+.contakts {
+    display    : flex;
+    align-items: center;
+    margin-left: auto;
+        &__item:not(:last-child) {
+    margin-right: 50px;}
+        &__link {
+    display        : flex;
+    align-items    : center;
+    color          : $text-color;
+    font-weight    : 500;
+    font-size      : 14px;
+    line-height    : 1.2;
+    letter-spacing : 0.02em;
+    text-decoration: none;
+    transition     : color $transition-time $function-transition, fill $transition-time $function-transition;}
+        &__link:hover,
+        &__link:focus {
+    color: $accent-color;}
+        &__icon {
+    margin-right: 10px;
+    fill        : $text-color;}
+        &__link:hover &__icon,
+        &__link:focus &__icon {
+        fill: $accent-color;}
+}

@@ -1,0 +1,50 @@
+.header-sektion {
+    background-color: $header-fone-color;
+    border-bottom   : 1px solid #ECECEC;
+    &__nave {
+    display    : flex;
+    align-items: center;}
+    &__list {
+     display    : flex;
+     margin-left: 93px;}
+    &__item:not(:last-child) {
+    margin-right: 50px;}
+    &__link {
+    display        : block;
+    padding-top    : 32px;
+    padding-bottom : 32px;
+    color          : $main-text-color;
+    font-weight    : 500;
+    font-size      : 14px;
+    line-height    : 1.2;
+    letter-spacing : 0.02em;
+    text-decoration: none;
+    transition     : color $transition-time $function-transition;}
+    &__link:hover,
+    &__link:focus {
+    color: $accent-color;}
+    &__link--active {
+    position: relative;}
+    &__link--active:hover,
+    &__link--active:focus,
+    &__link--active:active,
+    &__link--active:visited {
+    color: $accent-color;}
+    &__link--active::after {
+    position     : absolute;
+    content      : "";
+    display      : block;
+    bottom       : 0;
+    width        : 100%;
+    height       : 4px;
+    background   : $accent-color;
+    border-radius: 2px;
+    transition   : transform $transition-time $function-transition;}
+    
+}
+.main-nave {
+    display    : flex;
+    align-items: center;
+}
+
+    
