@@ -1,0 +1,29 @@
+.footer-sektion {
+    background    : $footer-fone-color;
+    padding-top   : 60px;
+    padding-bottom: 60px;
+    &__logo {
+    margin-bottom: 20px;}
+    &__adress {
+    color        : $header-fone-color;
+    font-style   : normal;
+    font-size    : 14px;
+    line-height  : 1.7;
+    margin-bottom: 9px;
+    margin-left  : 0px;}
+    &__contakts:not(:last-child) {
+    margin-bottom: 9px;}
+    &__link {
+    color          : rgba(255, 255, 255, 0.6);
+    font-style     : normal;
+    font-size      : 14px;
+    line-height    : 1.7;
+    text-decoration: none;
+    transition     : color $transition-time $function-transition;}
+    &__link:hover,
+    &__link:focus {
+    color: $accent-color;}
+    &>.container {
+    display    : flex;
+    align-items: baseline;}
+}
