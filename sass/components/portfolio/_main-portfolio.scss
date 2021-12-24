@@ -1,38 +1,43 @@
 .services {
     padding-top   : 94px;
-    padding-bottom: 94px;
-    &__list-button {
+    padding-bottom: 94px;}
+.services__list-button {
     display        : flex;
     justify-content: center;
     margin-bottom  : 50px;}
-    &__item:not(:last-child) {
+.services__item:not(:last-child) {
     margin-right: 8px;}
-    &__list-card {
+.services__list-card {
     display    : flex;
     flex-wrap  : wrap;
     margin-top : -30px;
     margin-left: -30px;}
-    &__card {
+.services__card {
     flex-basis : calc(100%/3 - $card-set);
     background : $header-fone-color;
     margin-top : $card-set;
     margin-left: $card-set;} 
-    &__link {
+.services__link {
     display        : block;
     text-decoration: none;
     color          : inherit;
-    transition     : box-shadow $transition-time $function-transition;}
-    &__link:hover,
-    &__link:focus {
+    transition     : box-shadow $transition-time $function-transition;   
+    &:hover,
+    &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);}
-    &__thumb {
+    &:hover .services__overlay,
+    &:focus-within .services__overlay {
+    transform: translate(0, 0);
+    opacity  : 1;}    
+    }
+
+.services__thumb {
     position: relative;
     overflow: hidden;
 }
-
-&__overlay {
+.services__overlay {
     position        : absolute;
     top             : 0;
     left            : 0;
@@ -43,14 +48,7 @@
     opacity         : 0;
     transition      : opacity $transition-time $function-transition, transform $transition-time $function-transition;
 }
-
-.services__link:hover &__overlay,
-.services__link:focus-within &__overlay {
-    transform: translate(0, 0);
-    opacity  : 1;
-}
-
-&__text-overlay {
+.services__text-overlay {
     position   : absolute;
     top        : 0;
     font-size  : 18px;
@@ -59,7 +57,7 @@
     padding    : 63px 24px;
 }
 
-&__content {
+.services__content {
     padding-right : 24px;
     padding-left  : 24px;
     padding-bottom: 20px;
@@ -69,16 +67,15 @@
     border-left   : 1px solid #EEEEEE;
 }
 
-&__title {
+.services__title {
     font-weight: bold;
     font-size  : 18px;
     line-height: 2;
 }
 
-&__text {
+.services__text {
     color      : $text-color;
     font-size  : 16px;
     line-height: 1.9;
-    margin-top : 4px;
-}    
-}
+    margin-top : 4px;}    
+

@@ -1,15 +1,18 @@
 .header-sektion {
     background-color: $header-fone-color;
-    border-bottom   : 1px solid #ECECEC;
-    &__nave {
+    border-bottom   : 1px solid #ECECEC;}
+.main-nave {
     display    : flex;
     align-items: center;}
-    &__list {
+.header-sektion__nave {
+    display    : flex;
+    align-items: center;}
+.header-sektion__list {
      display    : flex;
      margin-left: 93px;}
-    &__item:not(:last-child) {
+.header-sektion__item:not(:last-child) {
     margin-right: 50px;}
-    &__link {
+.header-sektion__link {
     display        : block;
     padding-top    : 32px;
     padding-bottom : 32px;
@@ -19,18 +22,18 @@
     line-height    : 1.2;
     letter-spacing : 0.02em;
     text-decoration: none;
-    transition     : color $transition-time $function-transition;}
-    &__link:hover,
-    &__link:focus {
+    transition     : color $transition-time $function-transition;
+ &:hover,
+ &:focus {
     color: $accent-color;}
-    &__link--active {
+&--active {
     position: relative;}
-    &__link--active:hover,
-    &__link--active:focus,
-    &__link--active:active,
-    &__link--active:visited {
+&--active:hover,
+&--active:focus,
+&--active:active,
+&--active:visited {
     color: $accent-color;}
-    &__link--active::after {
+&--active::after {
     position     : absolute;
     content      : "";
     display      : block;
@@ -40,11 +43,10 @@
     background   : $accent-color;
     border-radius: 2px;
     transition   : transform $transition-time $function-transition;}
+}
+   
     
-}
-.main-nave {
-    display    : flex;
-    align-items: center;
-}
+
+
 
     
