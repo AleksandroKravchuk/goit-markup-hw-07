@@ -26,25 +26,3 @@
     font-size  : 16px;
     line-height: 1.2;}
 }
-.icon-list {
-    display   : flex;
-    margin-top: 16px;
-    &__item:not(:last-child) {
-    margin-right  : 10px;
-    padding-bottom: 0;}
-    &__link {
-    display      : block;
-    width        : 44px;
-    height       : 44px;
-    border-radius: 50%;
-    text-align   : center;
-    padding-top  : 12px;} 
-    &__link--team {
-    background-color: $header-fone-color;
-    fill            : #AFB1B8;
-    transition      : background-color $transition-time $function-transition, fill $transition-time $function-transition;}
-    &__link--team:hover,
-    &__link--team:focus {
-    background-color: $accent-color;
-    fill            : $header-fone-color;}
-}
