@@ -69,11 +69,12 @@
     color         : #757575;
     margin-bottom : 4px;}
 .modal-form__box {
-    position: relative;  
-    &:focus-within>.modal-form__icon {
-    fill: $accent-color;}
+    position: relative; 
+    &:focus-within>.modal-form__icon, 
     &:hover .modal-form__icon {
-    fill: $accent-color;}}
+    fill: $accent-color;}
+}
+  
 .modal-form__text {
     width        : 100%;
     height       : 40px;
@@ -154,6 +155,7 @@
     color: $accent-color;}
 }
    .button--form {
+    @extend .button;   
     margin-top      : 30px;
     padding         : 10px 55px;
     text-align      : center;
