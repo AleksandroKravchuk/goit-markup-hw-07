@@ -27,10 +27,6 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
         1px 4px 6px rgba(0, 0, 0, 0.16);}
-    &:hover .services__overlay,
-    &:focus-within .services__overlay {
-    transform: translate(0, 0);
-    opacity  : 1;}    
     }
 
 .services__thumb {
@@ -47,6 +43,11 @@
     background-color: rgba(33, 150, 243, 0.9);
     opacity         : 0;
     transition      : opacity $transition-time $function-transition, transform $transition-time $function-transition;
+    .services__link:hover &,
+    .services__link:focus-within & {
+    transform: translate(0, 0);
+    opacity  : 1;
+}
 }
 .services__text-overlay {
     position   : absolute;
